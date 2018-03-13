@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <jp.setoh.postalcodesample.PostalCodeEditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:hint="000-0000"
+        android:maxLength="7"
+
+        android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
